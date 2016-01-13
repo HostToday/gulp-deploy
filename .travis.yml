@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+deploy:
+  provider: npm
+  email: npm@lossless.digital
+  api_key:
+    secure: IXA0ZmybQE8jtKCHnXbk7QtdnnFgxPa6ls0m0diJVg3C7iQ++rLGHxQ/PXexqyS1DTzvOxCBj2GgY1mR4LNjcot7vppOMjEXc/Ic17bQbpk3tQpa5HHf0djAXrV2Oj54b7XOCYcllAWheQA+Mj1MvVN0lhgjWfE5pE9MJDI65HfTSOOxUtgI1tVQmZ8go+G7CHcuDzNr5j90yP6HxVzAOtQYbachOfbPBraz3UCcrjd/Pz6wNfSnuAmDpMAmkK/vYdBbpo2rV5xOuf6DhhpTJwUuHEg89jmFVH2bkQml5SQyNjtuX+yrYqN5t8NptfxL+8EZsP/VS0zTHwetJOKLrXs/FdIgPLEHQU0GosBBvlsSkzWF7RAgitiqUdyIbRbhUJ8iWvrA3O1X1NCEsTaQFz0koD31ZtiG/Tog5PrFv8cWSI8iyvd3pdSQskW9EWu6L3FyFOYbPxBWEyr5gaEbyE6CLMx1O5/cy6jRXxUl4IPv+Nm0QGc2NVIipVYcS15v8mLXm1dl4g9ehbxiIQ8rs6gSvPAGKjTha9RZ0kJt1LDnL1Icq6zC32eyMSAJ1t94xmF2bHc6YoIcvaj2PX9PKdSAdOrz13d8XINuoxlxAvIK+aqcM0OgCmWrlyjKT3X1xM32EkyobqkvTaOeIFcJKOvAK6pWnq9BFO4dFSt7118=
+  on:
+    tags: true
+    repo: HostToday/gulp-deploy

@@ -1,0 +1,27 @@
+{
+  "name": "gulp-deploy",
+  "version": "0.0.0",
+  "description": "deploys code to different cloud hosters",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HostToday/gulp-deploy.git"
+  },
+  "keywords": [
+    "deploy",
+    "static",
+    "website"
+  ],
+  "author": "Lossless Digital haftungsbeschraenkt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HostToday/gulp-deploy/issues"
+  },
+  "homepage": "https://github.com/HostToday/gulp-deploy#readme",
+  "dependencies": {
+    "beautylog": "^2.0.2"
+  }
+}
