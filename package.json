@@ -4,7 +4,7 @@
   "description": "deploys code to different cloud hosters",
   "main": "index.js",
   "scripts": {
-    "test": "npm run compile"
+    "test": "npmts"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,9 @@
   },
   "homepage": "https://github.com/HostToday/gulp-deploy#readme",
   "dependencies": {
-    "beautylog": "^2.0.2"
+    "beautylog": "2.0.2"
+  },
+  "devDependencies": {
+    "npmts": "1.0.1"
   }
 }

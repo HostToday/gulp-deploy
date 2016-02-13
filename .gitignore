@@ -1,4 +1,7 @@
+coverage/
+node_modules/
 .idea/
 .c9/
 ts/**/*.js
 ts/**/*.js.map
+ts/typings/
