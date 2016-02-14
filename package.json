@@ -22,9 +22,9 @@
   },
   "homepage": "https://github.com/HostToday/gulp-deploy#readme",
   "dependencies": {
-    "beautylog": "2.0.2"
+    "beautylog": "2.1.1"
   },
   "devDependencies": {
-    "npmts": "1.0.1"
+    "npmts": "2.2.3"
   }
 }
