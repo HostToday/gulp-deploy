@@ -1,6 +1,6 @@
 {
   "name": "gulp-deploy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "deploys code to different cloud hosters",
   "main": "dist/index.js",
   "scripts": {
