@@ -2,13 +2,13 @@
   "name": "gulp-deploy",
   "version": "0.0.1",
   "description": "deploys code to different cloud hosters",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "npmts"
+    "test": "(npmts)"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HostToday/gulp-deploy.git"
+    "url": "git+https://github.com/shipzone/gulp-deploy.git"
   },
   "keywords": [
     "deploy",
@@ -18,13 +18,13 @@
   "author": "Lossless Digital haftungsbeschraenkt",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/HostToday/gulp-deploy/issues"
+    "url": "https://github.com/shipzone/gulp-deploy/issues"
   },
-  "homepage": "https://github.com/HostToday/gulp-deploy#readme",
+  "homepage": "https://github.com/shipzone/gulp-deploy#readme",
   "dependencies": {
     "beautylog": "2.1.1"
   },
   "devDependencies": {
-    "npmts": "2.2.3"
+    "npmts": "3.1.2"
   }
 }
